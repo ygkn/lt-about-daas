@@ -46,7 +46,7 @@ What's Ritsumeikan Dajare Circle?
 
 ---
 
-# 誰じゃ？
+# 作ったのは誰じゃ？
 
 `$ whoami`
 
