@@ -49,7 +49,8 @@ colorSchema: 'dark'
 - <span class="text-twitter">[<carbon-logo-twitter /> @ryusei_ishika](https://twitter.com/ryusei_ishika)</span>
 - [<carbon-logo-github /> @xryuseix](https://github.com/xryuseix)
 - 立命館ダジャレサークル会員
-- TODO:【自己紹介】
+- 競技プログラミング, セキュリティをやります
+  - SecHack365, seccamp 修了 / AtCoder 水
 
 </div>
 </div>
@@ -148,12 +149,23 @@ TODO: 【内容】
 
 Service to inside **Ritsumeikan Dajare Circle**
 
-[<carbon-logo-github /> rits-dajare/GASapps](https://github.com/rits-dajare/GASapps)
+[<carbon-logo-github /> rits-dajare/GASapps](https://github.com/rits-dajare/GASapps) <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/rits_dajare?style=social">
+
+slack でダジャレを投稿 → 評価して Twitter へ投稿します
 
 ## 使用技術
 
 - Google Apps Script
-- TODO:【その他追加して】
+- Twitter API
+- Slack API
+
+<img src="/kainai_slack.png"/> <img src="/kainai_twitter.png"/>
+
+<!--
+HTML書くの一番うまいやぎちゃん，配置いい感じにしてね
+右側の方に適当においてね
+あと上のTwitterのぼたんとGitHubのやつ，横並びにしたいな
+-->
 
 ---
 
