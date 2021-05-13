@@ -70,7 +70,8 @@ What's Ritsumeikan Dajare Circle?
 - <span class="text-twitter">[<carbon-logo-twitter /> @averak_jp](https://twitter.com/averak_jp)</span>
 - [<carbon-logo-github /> @averak](https://github.com/averak)
 - 立命館ダジャレサークル会員
-- TODO: 【自己紹介】
+- 音声処理とソフトウェア設計が好き
+- お気に入りのダジャレは「ごめんな謝意」
 
 ## <img src="https://github.com/xryuseix.png" height="1732" width="1732" style="height: 1.25em; width: auto; display: inline-block; border-radius: 100%" /> xryuseix
 
