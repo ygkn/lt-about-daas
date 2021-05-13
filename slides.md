@@ -13,8 +13,36 @@ colorSchema: 'dark'
 
 [#ダジャレ判定](https://twitter.com/search?q=%23%E3%83%80%E3%82%B8%E3%83%A3%E3%83%AC%E5%88%A4%E5%AE%9A&f=live) サービスを開発、運用した話
 
-<!--
--->
+---
+
+# 立命館ダジャレサークル
+
+What's Ritsumeikan Dajare Circle?
+
+[<carbon-link /> rits-dajare.github.io](https://rits-dajare.github.io/) / <span class="text-twitter">[<carbon-logo-twitter /> @rits_dajare](https://twitter.com/rits_dajare)</span> / [<carbon-logo-github /> @rits-dajare](https://github.com/rits-dajare)
+
+<div class="flex">
+<div class="flex-grow">
+
+- 「面白いダジャレ」とはなにかを研究し、ダジャレを創作する団体
+- 集団活動はなく、ただダジャレを発言し続ける異常団体
+- 現在会員は 30 人ほど
+  - アクティブな部員は少ない
+  - 立命館以外の人も在籍
+- 会員のダジャレは公式 Twitter アカウントへ投稿
+  - これを書いている現在フォロワー 120 人
+
+</div>
+
+<img
+  src="https://github.com/rits-dajare.png"
+  alt="立命館ダジャレサークルのロゴ"
+  width="1"
+  height="1"
+  style="width: 14rem; height: 14rem; border-radius: 1rem"
+  />
+
+</div>
 
 ---
 
