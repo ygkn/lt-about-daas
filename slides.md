@@ -177,9 +177,16 @@ TODO: 【内容】
 
 Service to inside **Ritsumeikan Dajare Circle**
 
-[<carbon-logo-github /> rits-dajare/GASapps](https://github.com/rits-dajare/GASapps) <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/rits_dajare?style=social">
+<div class="flex">
+<div class="flex-grow">
 
-slack でダジャレを投稿 → 評価して Twitter へ投稿します
+[<carbon-logo-github /> rits-dajare/GASapps](https://github.com/rits-dajare/GASapps)
+
+1. Slack でダジャレを投稿
+1. 評価、判定
+1. <span class="text-twitter">[<carbon-logo-twitter /> @rits_dajare](https://twitter.com/rits_dajare)</span> へ投稿、ダジャレにリアクション
+
+<br />
 
 ## 使用技術
 
@@ -187,13 +194,14 @@ slack でダジャレを投稿 → 評価して Twitter へ投稿します
 - Twitter API
 - Slack API
 
-<img src="/kainai_slack.png"/> <img src="/kainai_twitter.png"/>
+</div>
 
-<!--
-HTML書くの一番うまいやぎちゃん，配置いい感じにしてね
-右側の方に適当においてね
-あと上のTwitterのぼたんとGitHubのやつ，横並びにしたいな
--->
+<div class="flex-shrink">
+<img class="w-72" src="/kainai_slack.png"/>
+<img  class="w-80 absolute bottom-4 left-72 "  src="/kainai_twitter.png"/>
+</div>
+
+</div>
 
 ---
 
