@@ -183,7 +183,7 @@ Service to inside **Ritsumeikan Dajare Circle**
 
 1. Slack でダジャレを投稿
 1. 評価、判定
-1. <span class="text-twitter">[<carbon-logo-twitter /> @rits_dajare](https://twitter.com/rits_dajare)</span> へ投稿、ダジャレにリアクション
+1. <span class="text-twitter">[<carbon-logo-twitter /> @rits_dajare](https://twitter.com/rits_dajare)</span> へツイート、Slack の投稿にリアクション
 
 <br />
 
@@ -224,21 +224,21 @@ Service to outside **Ritsumeikan Dajare Circle**
 
 [https://rits-dajare.github.io/](https://rits-dajare.github.io/)
 
+ダジャレサークルの紹介、判定サービス
+
 ## 使用技術
 
 - Next.js - React のフレームワーク
-- Tailwind CSS - ユーティリティファーストの CSS フレームワーク
+- Tailwind CSS - Utility-fist な CSS フレームワーク
 - TypeScript - JavaScript に型がついたやつ
-- ESLint - Linter
-- Prettier - Formatter
+- React Query - React でいい感じに fetch できるくん
+- zod - ランタイムでの型チェックライブラリ
+
+<img src="/website.png" class="h-140 w-auto absolute top-0 right-0" />
 
 ---
 
-# Lighthouse
-
-Say "I love you!" to Google.
-
-TODO: 追加する
+<img src="lighthouse.png" class="w-full h-full object-contain" />
 
 ---
 
@@ -246,7 +246,19 @@ TODO: 追加する
 
 Progressive Web App
 
-TODO: 追加する
+<div class="flex gap-4">
+<div class="flex-grow">
+
+- インストールできる！
+  - 最近インストールする UI がかっこよくなった
+- ショートカットでダジャレ判定へ
+
+Twitter の `manifest.json` が参考になる！
+
+</div>
+<img src="/pwa-install.png" class="w-48" />
+<img src="/pwa-shortcut.png" class="w-48 object-contain object-top" />
+</div>
 
 ---
 
