@@ -136,10 +136,10 @@ Dajare judgement and evaluation engine
 
 - Flask - API サーバー
 - Janome - 形態素解析器
+- TensorFlow - 機械学習ライブラリ
 - Flake8 - Linter
 - autopep8 - Formatter
 - mypy - 静的型検査
-- TODO:【その他追加して】
 
 </div>
 
