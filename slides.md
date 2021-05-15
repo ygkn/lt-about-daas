@@ -128,7 +128,6 @@ Dajare judgement and evaluation engine
 ダジャレかどうかを判定し、0 ~ 5 の点数で評価する
 
 <div class="flex">
-
 <div class="flex-grow">
 
 ## 使用技術
