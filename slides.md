@@ -125,6 +125,8 @@ Dajare judgement and evaluation engine
 
 [<carbon-logo-github /> rits-dajare/DaaS](https://github.com/rits-dajare/DaaS)
 
+ダジャレかどうかを判定し、0 ~ 5 の点数で評価する
+
 <div class="flex">
 
 <div class="flex-grow">
