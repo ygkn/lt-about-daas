@@ -55,8 +55,7 @@ What's Ritsumeikan Dajare Circle?
 
 ## <img src="https://ygkn.github.io/img/profile.jpg" height="1732" width="1732" style="height: 1.25em; width: auto; display: inline-block; border-radius: 100%" /> やぎちゃん
 
-- <span class="text-twitter">[<carbon-logo-twitter /> @ygkn35034](https://twitter.com/ygkn35034)</span>
-- [<carbon-logo-github /> @ygkn](https://github.com/ygkn)
+- <span class="text-twitter">[<carbon-logo-twitter /> @ygkn35034](https://twitter.com/ygkn35034)</span> / [<carbon-logo-github /> @ygkn](https://github.com/ygkn)
 - 立命館ダジャレサークル会長
 - Web フロントエンドが好き
   - 最近は a11y とかに興味がある
@@ -67,16 +66,14 @@ What's Ritsumeikan Dajare Circle?
 
 ## <img src="https://github.com/averak.png" height="1732" width="1732" style="height: 1.25em; width: auto; display: inline-block; border-radius: 100%" /> Averak
 
-- <span class="text-twitter">[<carbon-logo-twitter /> @averak_jp](https://twitter.com/averak_jp)</span>
-- [<carbon-logo-github /> @averak](https://github.com/averak)
+- <span class="text-twitter">[<carbon-logo-twitter /> @averak_jp](https://twitter.com/averak_jp)</span> / [<carbon-logo-github /> @averak](https://github.com/averak)
 - 立命館ダジャレサークル会員
 - 音声処理とソフトウェア設計が好き
 - お気に入りのダジャレは「ごめんな謝意」
 
 ## <img src="https://github.com/xryuseix.png" height="1732" width="1732" style="height: 1.25em; width: auto; display: inline-block; border-radius: 100%" /> xryuseix
 
-- <span class="text-twitter">[<carbon-logo-twitter /> @ryusei_ishika](https://twitter.com/ryusei_ishika)</span>
-- [<carbon-logo-github /> @xryuseix](https://github.com/xryuseix)
+- <span class="text-twitter">[<carbon-logo-twitter /> @ryusei_ishika](https://twitter.com/ryusei_ishika)</span> / [<carbon-logo-github /> @xryuseix](https://github.com/xryuseix)
 - 立命館ダジャレサークル会員
 - 競技プログラミング, セキュリティをやります
   - SecHack365, seccamp 修了 / AtCoder 水
