@@ -260,7 +260,7 @@ Service to outside **Ritsumeikan Dajare Circle**
 
 ---
 
-<img src="lighthouse.png" class="w-full h-full object-contain" />
+<img src="/lighthouse.png" class="w-full h-full object-contain" />
 
 ---
 
