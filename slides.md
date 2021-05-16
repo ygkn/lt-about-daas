@@ -231,16 +231,6 @@ Service to inside **Ritsumeikan Dajare Circle**
 
 ---
 
-# 自動デプロイ
-
-Automatic Deploy
-
-GitHub Actions と Clasp を使用し、自動デプロイを実装した。
-
-しかし、現在は GitHub Actions の Workflow 終了後、API の反映を GAS エディタでする必要があるなど不完全。
-
----
-
 # 会外向けサービス
 
 Service to outside **Ritsumeikan Dajare Circle**
