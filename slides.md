@@ -185,13 +185,13 @@ Judge
 Evaluate
 
 [ダジャレステーション](https://dajare.jp/) から取得したダジャレ 64,737 件を教師データとして、
-TensorFlow で Character Level CNN （単語ではなく、文字レベルで学習）し、評価。
+TensorFlow で Character Level CNN （単語ではなく、文字レベルで学習）し、評価していた。
 
-<span class="text-3xl">していたが、</span>
+<span class="text-3xl">が、</span>
 教師データの評価値（1 ~ 5 点）のデータがでーたらめ（エンジン開発者談）だったため、
-人間の感覚と乖離。🥺
+人間の感覚と乖離した。🥺
 
-点数を正規分布に従わせるため、今はほぼランダムな値。
+点数を正規分布に従わせるため、今はほぼランダムな値となっている。
 
 ---
 
