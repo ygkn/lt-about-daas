@@ -128,7 +128,7 @@ Dajare judgement and evaluation engine
 
 [<carbon-logo-github /> rits-dajare/DaaS](https://github.com/rits-dajare/DaaS)
 
-ダジャレかどうかを判定し、0 ~ 5 の点数で評価する
+ダジャレかどうかを判定し、1 ~ 5 の点数で評価する
 
 ## 使用技術
 
@@ -174,7 +174,7 @@ Judge
 
 現在の判定精度は
 
-<p class="p-32 text-ritsumei text-6xl text-center">91.5% !!</p>
+<p class="p-32 text-ritsumei text-9xl text-center">91.5% !!</p>
 
 <p class="text-right">しかし、ダジャレかどうか微妙なものに引っかかりがち……。</p>
 
@@ -185,10 +185,11 @@ Judge
 Evaluate
 
 [ダジャレステーション](https://dajare.jp/) から取得したダジャレ 64,737 件を教師データとして、
-TensorFlow で Character Level CNN （単語ではなく、文字レベルで学習）し、評価。
+TensorFlow で  
+Character Level CNN （単語ではなく、文字レベルで学習）し、評価。
 
 <span class="text-3xl">していたが、</span>
-教師データの評価値（1 ~ 5 点）のデータがでーたらめ（エンジン開発者談）だったため、
+教師データの評価値（1 ~ 5 点）の データがでーたらめ（エンジン開発者談）だったため、
 人間の感覚と乖離。🥺
 
 点数を正規分布に従わせるため、今はほぼランダムな値。
