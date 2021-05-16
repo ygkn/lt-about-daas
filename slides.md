@@ -56,6 +56,7 @@ What's Ritsumeikan Dajare Circle?
 ## <img src="https://ygkn.github.io/img/profile.jpg" height="1732" width="1732" style="height: 1.25em; width: auto; display: inline-block; border-radius: 100%" /> やぎちゃん
 
 - <span class="text-twitter">[<carbon-logo-twitter /> @ygkn35034](https://twitter.com/ygkn35034)</span> / [<carbon-logo-github /> @ygkn](https://github.com/ygkn)
+- 発表者
 - 立命館ダジャレサークル会長
 - Web フロントエンドが好き
   - 最近は a11y とかに興味がある
@@ -186,9 +187,8 @@ Evaluate
 
 [ダジャレステーション](https://dajare.jp/) から取得したダジャレ 64,737 件を教師データとして、
 
-
-TensorFlow で  
-Character Level CNN （単語ではなく、文字レベルで学習）し、評価していた。
+TensorFlow で
+<span class="inline-block">Character Level CNN</span> （単語ではなく、文字レベルで学習）し、評価していた。
 
 <span class="text-3xl">が、</span>
 教師データの評価値（1 ~ 5 点）の データがでーたらめ（エンジン開発者談）だったため、
