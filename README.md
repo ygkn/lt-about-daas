@@ -30,5 +30,5 @@ yarn
 See `scripts` section of [package.json](./package.json)
 
 - `yarn dev` - runs in developing mode
-- `yarn build && yarn export` - exports HTML files and others in `./out`
+- `yarn build` - exports HTML files and others in `./dist`
 - `yarn run check` - checks with code formatting with Prettier
