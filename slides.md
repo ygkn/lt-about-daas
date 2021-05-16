@@ -13,6 +13,8 @@ colorSchema: 'dark'
 
 [#ダジャレ判定](https://twitter.com/search?q=%23%E3%83%80%E3%82%B8%E3%83%A3%E3%83%AC%E5%88%A4%E5%AE%9A&f=live) サービスを開発、運用した話
 
+やぎちゃん
+
 ---
 
 # 立命館ダジャレサークル
