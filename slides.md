@@ -123,12 +123,12 @@ The beggining of **Ritsumeikan Dajare Circle**
 
 Dajare judgement and evaluation engine
 
+<div class="flex">
+<div class="flex-grow">
+
 [<carbon-logo-github /> rits-dajare/DaaS](https://github.com/rits-dajare/DaaS)
 
 ダジャレかどうかを判定し、0 ~ 5 の点数で評価する
-
-<div class="flex">
-<div class="flex-grow">
 
 ## 使用技術
 
@@ -139,13 +139,17 @@ Dajare judgement and evaluation engine
 - autopep8 - Formatter
 - mypy - 静的型検査
 
+など
+
 </div>
 
-<div class="flex-grow">
+<div class="flex-grow flex flex-col">
 
-## デプロイ
+<img src="/ai_search.png" class="h-40 object-contain" />
 
-- ConoHa
+<p class="text-center">ダジャレを審議中の AI <br /> （審議ュラリティ）</p>
+
+<img src="/ai_pet_family.png" class="h-40 object-contain mt-4" />
 
 </div>
 </div>
@@ -156,7 +160,23 @@ Dajare judgement and evaluation engine
 
 Judge
 
-TODO: 【内容】
+ルールの一例: 前処理でノイズの削除、カタカナに変換し、 n-gram で重複する要素があればダジャレと判定
+
+![](/judgement.drawio.svg)
+
+その他母音/子音の一致、文字の入れ替え、音便などを考慮し人間の思う「ダジャレ」に近づけている
+
+---
+
+# ダジャレの判定
+
+Judge
+
+現在の判定精度は
+
+<p class="p-32 text-ritsumei text-6xl text-center">91.5 % !!</p>
+
+<p class="text-right">しかし、ダジャレかどうか微妙なものに引っかかりがち……。</p>
 
 ---
 
@@ -164,11 +184,12 @@ TODO: 【内容】
 
 Evaluate
 
-TODO: 【内容】
+[ダジャレステーション](https://dajare.jp/) から取得したダジャレ 64,737 件を教師データとして、
+TensorFlow で Character Level CNN （単語ではなく、文字レベルで学習）し、評価。
 
-<!--
-その他何か面白いネタあれば追加してね
--->
+<span class="text-3xl">していたが、</span>
+教師データの評価値（1 ~ 5 点）のデータがでーたらめ（エンジン開発者談）だったため、
+今はほぼランダム。🥺
 
 ---
 
@@ -185,19 +206,20 @@ Service to inside **Ritsumeikan Dajare Circle**
 1. 評価、判定
 1. <span class="text-twitter">[<carbon-logo-twitter /> @rits_dajare](https://twitter.com/rits_dajare)</span> へツイート、Slack の投稿にリアクション
 
-<br />
-
 ## 使用技術
 
 - Google Apps Script
-- Twitter API
-- Slack API
+- Slack API - Slack の投稿を取得したり、リアクションしたり
+- Twitter API - ダジャレを世に放つ
+- Clasp - GAS の CLI 管理ツール
+
+など
 
 </div>
 
 <div class="flex-shrink">
-<img class="w-72" src="/kainai_slack.png"/>
-<img  class="w-80 absolute bottom-4 left-72 "  src="/kainai_twitter.png"/>
+<img class="w-52" src="/kainai_slack.png" />
+<img  class="w-80 absolute bottom-1 right-40"  src="/kainai_twitter.png"/>
 </div>
 
 </div>
@@ -208,11 +230,9 @@ Service to inside **Ritsumeikan Dajare Circle**
 
 Automatic Deploy
 
-TODO: 内容
+GitHub Actions と Clasp を使用し、自動デプロイを実装した。
 
-<!--
-その他何か面白いネタあれば追加してね
--->
+しかし、現在は GitHub Actions の Workflow 終了後、API の反映を GAS エディタでする必要があるなど不完全。
 
 ---
 
@@ -234,6 +254,8 @@ Service to outside **Ritsumeikan Dajare Circle**
 - React Query - React でいい感じに fetch できるくん
 - zod - ランタイムでの型チェックライブラリ
 
+など
+
 <img src="/website.png" class="h-140 w-auto absolute top-0 right-0" />
 
 ---
@@ -253,7 +275,7 @@ Progressive Web App
   - 最近インストールする UI がかっこよくなった
 - ショートカットでダジャレ判定へ
 
-Twitter の `manifest.json` が参考になる！
+Tip: Twitter の `manifest.json` が参考になる！
 
 </div>
 <img src="/pwa-install.png" class="w-48" />
@@ -262,28 +284,58 @@ Twitter の `manifest.json` が参考になる！
 
 ---
 
+# 他にもいろいろ
+
+...and more!
+
+<div class="flex h-full w-full gap-8">
+
+<div class="flex-grow">
+
+アクセシビリティも、ダークモードも。
+
+「生意気にもダークモードに対応してやがる」との嬉しいお声も
+
+お気づきの点があれば Issue、PR 待ってます！
+
+</div>
+<img src="/dark-mode.png" class="w-52 object-contain object-top" />
+<img src="/a11y.png" class="w-52 object-contain object-top" />
+</div>
+
+---
+
 # 作って気づいたこと
 
-- 人類なんだかんだダジャレが好き
-- TODO: 追加する
+Awareness
+
+## 人類なんだかんだダジャレが好き
+
+普段ダジャレを言わない人もサービスを公開してから投稿することがあった。
+
+ダジャレ判定はダジャレを発言する場を作っているのでは？
+
+<carbon-arrow-right /> どんな小さなサービスでも人の行動を変えることもあることを再認識
 
 ---
 
-# 今後の展望
+# 今後の課題
 
-<!-- 判定・評価エンジン、会内外向けサービス全ての今後の展望 -->
-
----
-
-## 時間があまったら話すこと
-
-- 誤判定させたい人との攻防
-- SSL 対応
-- TODO: 追加する
+- 判定・評価エンジン
+  - 判定・評価 API レスポンスの高速化
+  - 判定、評価の高精度化
+    - より人間の感覚に近づける
+- 会内向けサービス
+  - 開発者体験の向上
+    - 完全自動デプロイの実装
+    - TypeScript を導入
+- 会外向けサービス
+  - OGP 画像生成
+  - グラフィックの向上
 
 <p class="text-center">Thanks a lot for your watching! 🥩</p>
 
-<p class="absolute bottom-0 right-0 p-8">
+<p class="absolute bottom-0 right-0 px-8">
 
 This slide was created with [slidev](https://sli.dev/).
 
