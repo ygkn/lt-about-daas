@@ -174,7 +174,7 @@ Judge
 
 現在の判定精度は
 
-<p class="p-32 text-ritsumei text-6xl text-center">91.5 % !!</p>
+<p class="p-32 text-ritsumei text-6xl text-center">91.5% !!</p>
 
 <p class="text-right">しかし、ダジャレかどうか微妙なものに引っかかりがち……。</p>
 
